@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tabletop.io.Gui.Editor", "editor\Tabletop.io.Gui.Editor.csproj", "{B3E829C4-2423-4B38-989C-BACE54F1C8C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tabletop.io.Gui", "Tabletop.io.Gui.csproj", "{38D91E9A-130E-45DA-9D14-A0B2CE0D1796}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Export|Any CPU = Export|Any CPU
+		Mobile|Any CPU = Mobile|Any CPU
+		Unity-iOS|Any CPU = Unity-iOS|Any CPU
+		Unity|Any CPU = Unity|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38D91E9A-130E-45DA-9D14-A0B2CE0D1796}.Debug|Any CPU.ActiveCfg = Unity-iOS|Any CPU
+		{38D91E9A-130E-45DA-9D14-A0B2CE0D1796}.Debug|Any CPU.Build.0 = Unity-iOS|Any CPU
+		{38D91E9A-130E-45DA-9D14-A0B2CE0D1796}.Export|Any CPU.ActiveCfg = Debug|Any CPU
+		{38D91E9A-130E-45DA-9D14-A0B2CE0D1796}.Export|Any CPU.Build.0 = Debug|Any CPU
+		{38D91E9A-130E-45DA-9D14-A0B2CE0D1796}.Mobile|Any CPU.ActiveCfg = Debug|Any CPU
+		{38D91E9A-130E-45DA-9D14-A0B2CE0D1796}.Mobile|Any CPU.Build.0 = Debug|Any CPU
+		{38D91E9A-130E-45DA-9D14-A0B2CE0D1796}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38D91E9A-130E-45DA-9D14-A0B2CE0D1796}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38D91E9A-130E-45DA-9D14-A0B2CE0D1796}.Unity|Any CPU.ActiveCfg = Release|Any CPU
+		{38D91E9A-130E-45DA-9D14-A0B2CE0D1796}.Unity|Any CPU.Build.0 = Release|Any CPU
+		{38D91E9A-130E-45DA-9D14-A0B2CE0D1796}.Unity-iOS|Any CPU.ActiveCfg = Unity-iOS|Any CPU
+		{38D91E9A-130E-45DA-9D14-A0B2CE0D1796}.Unity-iOS|Any CPU.Build.0 = Unity-iOS|Any CPU
+		{B3E829C4-2423-4B38-989C-BACE54F1C8C1}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{B3E829C4-2423-4B38-989C-BACE54F1C8C1}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{B3E829C4-2423-4B38-989C-BACE54F1C8C1}.Export|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3E829C4-2423-4B38-989C-BACE54F1C8C1}.Export|Any CPU.Build.0 = Debug|Any CPU
+		{B3E829C4-2423-4B38-989C-BACE54F1C8C1}.Mobile|Any CPU.ActiveCfg = Mobile|Any CPU
+		{B3E829C4-2423-4B38-989C-BACE54F1C8C1}.Mobile|Any CPU.Build.0 = Mobile|Any CPU
+		{B3E829C4-2423-4B38-989C-BACE54F1C8C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3E829C4-2423-4B38-989C-BACE54F1C8C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3E829C4-2423-4B38-989C-BACE54F1C8C1}.Unity|Any CPU.ActiveCfg = Release|Any CPU
+		{B3E829C4-2423-4B38-989C-BACE54F1C8C1}.Unity|Any CPU.Build.0 = Release|Any CPU
+		{B3E829C4-2423-4B38-989C-BACE54F1C8C1}.Unity-iOS|Any CPU.ActiveCfg = Unity-iOS|Any CPU
+		{B3E829C4-2423-4B38-989C-BACE54F1C8C1}.Unity-iOS|Any CPU.Build.0 = Unity-iOS|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = editor\Tabletop.io.Gui.Editor.csproj
+	EndGlobalSection
+EndGlobal

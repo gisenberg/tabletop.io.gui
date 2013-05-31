@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{38D91E9A-130E-45DA-9D14-A0B2CE0D1796}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Tabletop.io.Gui</RootNamespace>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AssemblyName>Tabletop.io.Client</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AssemblyName>Tabletop.io.Client</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Unity-iOS|AnyCPU'">
+    <OutputPath>bin\Unity-iOS</OutputPath>
+    <DebugType>none</DebugType>
+    <WarningLevel>4</WarningLevel>
+    <Optimize>false</Optimize>
+    <DefineConstants>PLATFORM_IOS</DefineConstants>
+    <AssemblyName>Tabletop.io.Gui</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="UnityEngine">
+      <HintPath>external\UnityEngine.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebView.cs" />
+    <Compile Include="Linq.cs" />
+    <Compile Include="Controls\Album.cs" />
+    <Compile Include="Controls\Empty.cs" />
+    <Compile Include="Controls\ListBox.cs" />
+    <Compile Include="Controls\ListItem.cs" />
+    <Compile Include="Controls\TextView.cs" />
+    <Compile Include="Controls\Interfaces\IContainer.cs" />
+    <Compile Include="Controls\Interfaces\ICustomCursor.cs" />
+    <Compile Include="Controls\Interfaces\ICustomHitBox.cs" />
+    <Compile Include="Controls\Interfaces\IKeyboardInput.cs" />
+    <Compile Include="Controls\Image.cs" />
+    <Compile Include="Controls\Interfaces\ISpriteContent.cs" />
+    <Compile Include="Controls\Interfaces\ITextContent.cs" />
+    <Compile Include="Controls\Interfaces\IUpdate.cs" />
+    <Compile Include="Controls\Interfaces\IControl.cs" />
+    <Compile Include="Controls\Label.cs" />
+    <Compile Include="Controls\RadioGroup.cs" />
+    <Compile Include="Controls\ScrollView.cs" />
+    <Compile Include="Controls\TextBox.cs" />
+    <Compile Include="Controls\Button.cs" />
+    <Compile Include="Controls\Control.cs" />
+    <Compile Include="Controls\Interfaces\IMouseInput.cs" />
+    <Compile Include="Shaders\BuiltinShader.cs" />
+    <Compile Include="Visual\Atlas.cs" />
+    <Compile Include="Visual\BitmapChar.cs" />
+    <Compile Include="Visual\BitmapFont.cs" />
+    <Compile Include="Visual\NullVisual.cs" />
+    <Compile Include="Visual\TextRun.cs" />
+    <Compile Include="Visual\TextVisual.cs" />
+    <Compile Include="Visual\SpriteVisual.cs" />
+    <Compile Include="Visual\Enums.cs" />
+    <Compile Include="Visual\UVRect.cs" />
+    <Compile Include="Visual\VisualOptions.cs" />
+    <Compile Include="Visual\Sprite.cs" />
+    <Compile Include="Visual\Visual.cs" />
+    <Compile Include="Extensions.cs" />
+    <Compile Include="Cursor.cs"/>
+    <Compile Include="Gui.cs"/>
+    <Compile Include="GuiManager.cs" />
+    <Compile Include="Layer.cs" />
+    <Compile Include="StringCache.cs" />
+    <Compile Include="Transition.cs" />
+    <Compile Include="Tween.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Shaders\SpriteVertexColored.txt" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Unity|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Unity</OutputPath>
+    <WarningLevel>4</WarningLevel>
+    <AssemblyName>Tabletop.io.Client</AssemblyName>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

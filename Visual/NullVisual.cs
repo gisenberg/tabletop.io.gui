@@ -1,0 +1,13 @@
+﻿//     NullVisual.cs
+//     (c) 2013 Brett Ernst, Jameson Ernst, Robert Marsters, Gabriel Isenberg https://github.com/gisenberg/tabletop.io.gui
+//     Licensed under the terms of the MIT license.
+
+namespace Tabletop.io.Gui {
+    public class NullVisual : Visual {
+        protected override void Clear () {
+        }
+
+        protected override void Build (bool isClipped, UnityEngine.Rect clipRect) {
+        }
+    }
+}
