@@ -7,4 +7,4 @@ A GUI library for Unity3D. Used by the following titles:
 * [Cold Claim](http://coldclaim.com/): Available on the [App Store](https://itunes.apple.com/us/app/cold-claim/id616242847).
 
 ##Licensing
-Tabletop.io.Gui is licensed under the terms of the MIT License, see the included MIT-LICENSE file.
+Copyright (c) 2013 Brett Ernst, Jameson Ernst, Robert Marsters, Gabriel Isenberg under the terms of the MIT License, see the included MIT-LICENSE file.
